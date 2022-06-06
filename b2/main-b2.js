@@ -13,3 +13,9 @@ picker.addEventListener('change', function () {
     targetLabel.appendChild(codeArea);
   });
 });
+//Change background color
+function changeColor() {
+  let color = document.getElementById('colorPicker').value;
+  document.body.style.backgroundColor=color;
+  document.getElementById('colorPicker').value=color;
+};
